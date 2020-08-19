@@ -1,0 +1,39 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    height: 200px;
+    background-size: cover;
+    background-position: top; 
+}  
+
+.dark_inside{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border:2px solid orangered;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.dark{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 999;
+}
